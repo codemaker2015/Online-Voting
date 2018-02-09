@@ -1,0 +1,19 @@
+/* Notes related to PHP version:
+
+   Pass-By-Reference has been deprecated since PHP 4.0.6 (included).
+
+   Your PHP server may raise warning like this:
+
+       "Warning: Call-time pass-by-reference has been deprecated;"
+   
+   If the line of code shown in the error message on your page refers to 
+   the line in this file with the following statement:
+
+		"while($temp = odbc_fetch_into($res, $idata)){"
+
+   It means that you have to change your dbQwikSite options and change
+   the  'Generate Pass By Reference' option. You can access this option
+   via 'Tools -> Project Settings, then look at the 'PHP Options' tab.
+   Switch the check box called "Generate function calls using "Pass by reference"
+
+*/

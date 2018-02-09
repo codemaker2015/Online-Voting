@@ -1,0 +1,26 @@
+BODY { background: #FFFFFF; color: #000000;
+       font-family: Verdana;
+       font-size: 8pt;
+}
+td {       font-size: 8pt;
+}
+A:link { color: #0080FF; }
+A:visited { color: #BBA484; }
+A:active { color: #0000FF; }
+.ThRows { background-color: #495F78; color: #FFFFFF;
+          font-weight: bold; text-align: center;
+       font-family: Verdana;
+       font-size: 8pt;
+}
+.TrRows { background-color: #FBFBFB; color: #000000;
+       font-family: Verdana;
+       font-size: 8pt;
+}
+.TrOdd  { background-color: #FFFFFF; color: #000000;
+       font-family: Verdana;
+       font-size: 8pt;
+}.TrHover { background-color: #F0F0F0; color: #000000;
+       font-family: Verdana;
+       font-size: 8pt;
+}
+
